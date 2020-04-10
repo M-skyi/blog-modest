@@ -9,7 +9,6 @@ body{
 }
 header{
 	display: flex;
-	align-items: center;
 	background-color: #333333;
 	height: 80px;
 	align-items: center;
@@ -23,6 +22,9 @@ header{
 }
 .col-6{
 	width: 50%;
+}
+.col-9{
+	width: 75%;
 }
 .row{
 	display: flex;
@@ -90,6 +92,42 @@ input::-webkit-input-placeholder { color: #cccccc; font-family:'Open Sans', sans
 	width: 20px;
 	height: 20px;
 }
+#section-1{
+	display: flex;
+	height: 666px;
+	background: url(img/img2.png)center top / cover ;
+	align-items: center;
+}
+.sec-1-text-1{
+	color: white;
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+.sec-1-text-2{
+	font-size: 16px;
+	color: #cccccc;
+	margin-bottom: 45px;
+}
+.button-sec-1{
+	height: 45px;
+	width: 125px;
+	color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+	background-color: inherit;
+	text-transform: uppercase;
+}
+.button2{
+	margin-left: 5px;
+}
+.button-sec-1:hover{
+	background-color: #33cc99;
+	border: none;
+}
+
+
+
 
 
 
