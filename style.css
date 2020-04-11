@@ -20,8 +20,14 @@ header{
 .col-3{
 	width: 25%;
 }
+.col-5{
+	width: 41.66%;
+}
 .col-6{
 	width: 50%;
+}
+.col-7{
+	width: 58.33%;
 }
 .col-9{
 	width: 75%;
@@ -124,7 +130,52 @@ input::-webkit-input-placeholder { color: #cccccc; font-family:'Open Sans', sans
 .button-sec-1:hover{
 	background-color: #33cc99;
 	border: none;
+	cursor: pointer;
 }
+#section-2{
+	height: 615px;
+	background-color: #ffffff;
+}
+.sec-2-text-1{
+	border-left: 10px solid #cccccc;
+	margin-bottom: 63px;
+	margin-top: 78px;
+	text-transform: uppercase;
+	font-size: 36px;
+	text-indent: 15px;
+}
+.sec-2-text-2{
+margin-left:  -27px;
+margin-bottom: 40px;
+font-size: 16px;
+color: #999999;
+}
+.sec-2-text-3{
+	margin-bottom: 110px;
+}
+.sec-2-icon{
+	margin-top: 105px;
+	display: flex;
+	flex-direction: row;
+}
+.sec-2-icon img{
+	background-color: #cccccc;
+	margin: 1px;
+	width: 60px;
+	height: 60px;
+	
+}
+.content-section-2{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	
+	
+	
+	
+}
+
+
 
 
 
