@@ -32,6 +32,9 @@ header{
 .col-9{
 	width: 75%;
 }
+.col-12{
+	width: 100%;
+}
 .row{
 	display: flex;
 	align-items: center;
@@ -52,6 +55,9 @@ header{
 	margin: 5px;
 	align-items: center;
 	margin-top: 8px;
+	border: 2px solid #333333;
+
+
 }
 .navigation li:hover{
 	border: 2px solid #7e7e7e;
@@ -104,6 +110,15 @@ input::-webkit-input-placeholder { color: #cccccc; font-family:'Open Sans', sans
 	background: url(img/img2.png)center top / cover ;
 	align-items: center;
 }
+#section-2{
+	height: 615px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #999999;
+}
+#section-3{
+	height: 650px;
+	background-color: #ffffff;
+}
 .sec-1-text-1{
 	color: white;
 	font-size: 36px;
@@ -115,6 +130,7 @@ input::-webkit-input-placeholder { color: #cccccc; font-family:'Open Sans', sans
 	color: #cccccc;
 	margin-bottom: 45px;
 }
+
 .button-sec-1{
 	height: 45px;
 	width: 125px;
@@ -132,11 +148,7 @@ input::-webkit-input-placeholder { color: #cccccc; font-family:'Open Sans', sans
 	border: none;
 	cursor: pointer;
 }
-#section-2{
-	height: 615px;
-	background-color: #ffffff;
-}
-.sec-2-text-1{
+.title{
 	border-left: 10px solid #cccccc;
 	margin-bottom: 63px;
 	margin-top: 78px;
@@ -144,36 +156,48 @@ input::-webkit-input-placeholder { color: #cccccc; font-family:'Open Sans', sans
 	font-size: 36px;
 	text-indent: 15px;
 }
-.sec-2-text-2{
-margin-left:  -27px;
-margin-bottom: 40px;
-font-size: 16px;
-color: #999999;
+.content{
+	margin-bottom: 40px;
+	font-size: 16px;
+	color: #999999;
 }
-.sec-2-text-3{
-	margin-bottom: 110px;
-}
-.sec-2-icon{
+
+.img-icon{
 	margin-top: 105px;
 	display: flex;
 	flex-direction: row;
 }
-.sec-2-icon img{
+.img-icon img{
 	background-color: #cccccc;
 	margin: 1px;
 	width: 60px;
 	height: 60px;
-	
 }
-.content-section-2{
+.img-people{
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
-	flex-direction: column;
-	
-	
-	
+}
+.name-people{
+	width: 263px;
+	height: 75px;
+	background-color: #dcdcef;
+	position: relative;
+	bottom: 5px;
 	
 }
+.text-name{
+	display: inline-block;
+	position: relative;
+ 	top: 20px;
+ 	left: 20px;
+ 	
+
+}
+
+
+
+
 
 
 
