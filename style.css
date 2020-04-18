@@ -113,7 +113,7 @@ input::-webkit-input-placeholder { color: #cccccc; font-family:'Open Sans', sans
 #section-2{
 	height: 615px;
 	background-color: #ffffff;
-	border-bottom: 1px solid #999999;
+	border-bottom: 1px solid #cccccc;
 }
 #section-3{
 	height: 650px;
@@ -173,27 +173,48 @@ input::-webkit-input-placeholder { color: #cccccc; font-family:'Open Sans', sans
 	width: 60px;
 	height: 60px;
 }
-.img-people{
+.people{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
-.name-people{
-	width: 263px;
-	height: 75px;
-	background-color: #dcdcef;
+.img-people{
 	position: relative;
-	bottom: 5px;
-	
+}
+.icon-people{
+	position: absolute;
+}
+.img{
+	position: absolute;
+	width: 262px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icon-people img{
+	 background-color: #3a454d;
+}
+.icon-people a{
+	width: 48px;
+    height: 48px;
+    display: inline-block;
+    margin: -1px;
+}
+.name-people{
+	position: relative;
+	margin-top: -5px;
+	height: 75px;
+	width: 262px;
+	background-color: #e1e6ea;
 }
 .text-name{
+	height: 35px;
 	display: inline-block;
-	position: relative;
- 	top: 20px;
- 	left: 20px;
- 	
-
+	margin: 20px 20px;
 }
+
+
 
 
 
