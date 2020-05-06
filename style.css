@@ -95,6 +95,7 @@ header{
 	width: 195px; 
 	border: 2px solid #7e7e7e;
 	align-items: center;
+	height: 32px;
 }
 .input-search{
 height: 24px;
