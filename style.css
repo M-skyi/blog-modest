@@ -149,7 +149,7 @@ input::-webkit-input-placeholder { color: #cccccc; font-family:'Open Sans', sans
 	text-transform: uppercase;
 	position: relative;
 	left: 20px;
-	bottom: 20px;
+	bottom: 19px;
     display: inline-block;
 }
 
@@ -318,7 +318,7 @@ position: relative;
 	width: 265px;	
 	height: 230px;	
 	text-align: center;
-	margin-left: 5px;
+	margin: 0 auto; 	
 	margin-bottom: 80px;
 }
 .m-top{
@@ -331,8 +331,7 @@ position: relative;
 	font-weight: bold;
 }
 .text{
-	color: #9b9595;
-	margin-bottom: 160px;
+	color: #9b9595;	
 }
 #section-6{
 	height: 735px;
