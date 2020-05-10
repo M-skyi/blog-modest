@@ -96,13 +96,17 @@ header{
 	border: 2px solid #7e7e7e;
 	align-items: center;
 	height: 32px;
+	background-image: url(img/icon-search1.png) ;
+	background-repeat: no-repeat;
+	background-position: 90%;
+
 }
 .input-search{
 height: 24px;
 width: 150px;
 border: none;
 background-color: inherit;
-outline: none;
+outline: none;s
 color: white;
 font-size: 14px;
 color: #cccccc;
@@ -143,7 +147,13 @@ input::-webkit-input-placeholder { color: #cccccc; font-family:'Open Sans', sans
 .right-part{
 	margin-left: 30px;
 	bottom: 40px;
-	height: 110px;
+	height: 114px;
+}
+.right-part-text{
+	line-height: 1.5;
+	position: relative;
+	 left: 76px;
+     bottom: 23px;
 }
 .heading-text{
 	text-transform: uppercase;
@@ -209,7 +219,6 @@ input::-webkit-input-placeholder { color: #cccccc; font-family:'Open Sans', sans
 	width: 60px;
 	height: 60px;
 }
-
 .img-people{
 	position: relative;
 	width: 260px;
@@ -313,7 +322,6 @@ position: relative;
 	height: 895px;
 	background-color: #ffffff;
 }
-
 .block-we-do{
 	width: 265px;	
 	height: 230px;	
@@ -366,6 +374,7 @@ width: 100%;
 	margin-left: 20px;
 }
 .form{
+	padding: 30px;
 	position: relative;
 	width: 557px;
 	height: 430px;
@@ -378,7 +387,6 @@ width: 100%;
 }
 .name p{
 	width: 50%;
-	margin-left: 30px;
 	text-transform: uppercase;
 	color: #999999;
 	margin-bottom: 5px;
@@ -412,20 +420,12 @@ textarea{
 	color: #999999;
 	margin-bottom: 5px;
 }
-.your-email{
-	margin-right:   30px;
-}
-.your-name{
-	margin-left:   30px;
-}
 .input-message{
-	margin-left: 31px;
      margin-top: 50px;
 	width: 495px;
 	height: 187px;
 }
 .send-message{
-	margin-left: 30px;
 	margin-top: 30px;
 	width: 155px;
 	height: 45px;
