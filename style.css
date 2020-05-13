@@ -322,6 +322,11 @@ position: relative;
 	height: 895px;
 	background-color: #ffffff;
 }
+.button:hover {
+	background-color: white;
+	color: #3a454d;
+
+}
 .block-we-do{
 	width: 265px;	
 	height: 230px;	
