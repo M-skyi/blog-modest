@@ -182,16 +182,15 @@ input::-webkit-input-placeholder { color: #cccccc; font-family:'Open Sans', sans
 }
 .right-part-text{
 	line-height: 1.5;
-	position: relative;
-	 left: 76px;
-     bottom: 23px;
+    position: relative;
+    left: 85px;
+    bottom: 45px;
 }
 .heading-text{
 	text-transform: uppercase;
-	position: relative;
-	left: 20px;
-	bottom: 19px;
-    display: inline-block;
+    position: relative;
+    left: 88px;
+    bottom: 49px;
 }
 
 .title-welcome {
@@ -502,7 +501,7 @@ textarea{
 }
 
 @media( max-width: 767px){
-	.col-sm-12{
+	.col-6.col-sm-12{
 		flex:0 0 100%;
 		max-width: 100%;
 	}
@@ -513,6 +512,10 @@ textarea{
 	.col-6{
 		flex:0 0 50%;
 		max-width: 50%
+	}
+	.col-5 {
+		flex: 0 0 100%;
+		max-width: 100%;
 	}
 	.navigation{
 		overflow: scroll;
@@ -597,6 +600,72 @@ textarea{
 		display: flex;
 		justify-content: flex-end;
 	}
+	.mobile-center-content{
+		text-align: center;
+	}
+	.col-9{
+		flex:0 0 100%;
+		max-width: 100%;
+	}
+	.text-welcome{
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.title-welcome{
+		font-size: 34px;
+	}
+	#section-1{
+		height: 400px;
+	}
+	#section-2{
+		height: 840px;
+	}
+	.title{
+		margin-top: 20px;
+	}
+	.col-7 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.social a{
+		width: 50px;
+		height: 55px;
+	}
+	}
+	.content{
+		line-height: 20px;
+	}
+	.right-part {
+		margin-left: 5px;
+		bottom: 40px;
+		height: 114px;
+		margin-top: 35px;
+		width: 307px;
+	}
+	.heading-text{
+		left: 0px;
+		bottom: 47px;
+		font-size: 14px;
+		width: 250px;
+		margin-left: 57px;
+	}
+	.right-part-text{
+		bottom: 38px;
+		left: 23px;
+		font-size: 10px;
+		margin-top: -10px;
+		position: none;
+		width: 250px;
+		margin-left: 35px;
+	}
+	.block{
+		display: flex;
+		flex-direction: column;
+		margin-top: -60px;
+	}
+	.top-block{
+		margin-top: 100px;
+	}
 }
 @media( min-width: 768px){
 	.container{
@@ -609,9 +678,20 @@ textarea{
 		flex:0 0 66.66%;
 		max-width: 66.66%;
 	}
-	.nav{
-		overflow: scroll;
+	.nav li {
+		padding: 1px 1px;
+		margin: 0px;
+		margin-top: -1px;
 	}
+	.text-welcome{
+		font-size: 13px;
+	}
+	.right-part-text,.heading-text{
+		font-size: 11px;
+		left: 0px;
+		bottom: 0px;
+	}
+	
 }
 @media( min-width: 992px){
 	.container{
@@ -628,6 +708,21 @@ textarea{
 	.nav{
 		overflow: visible;
 	}
+	.nav li{
+		padding: 4px;
+		margin: 5px;
+	}
+	.right-part-text{
+		line-height: 1.5;
+		font-size: 11px;
+	}
+	.heading-text{
+		text-transform: uppercase;
+		font-size: 13px;
+	}
+	.right-part{
+		margin-top: 45px;
+	}
 	
 }
 @media( min-width: 1200px){
@@ -642,6 +737,25 @@ textarea{
 		flex:0 0 50%;
 		max-width: 50%;
 	}
+	.right-part-text{
+		line-height: 1.5;
+		position: relative;
+		bottom: 40px;
+		font-size: 11px;
+	}
+	.heading-text{
+		text-transform: uppercase;
+		position: relative;
+		bottom: 49px;
+		font-size: 16px;
+	}
+	.right-part {
+		margin-left: 45px;
+		bottom: 40px;
+		height: 114px;
+		width: 307px;
+	}
+	
 }
 
 
