@@ -618,6 +618,23 @@ textarea{
 		max-width: 960px;
 	}
 	.col-3{
+		flex:0 0 16.66%;
+		max-width: 16.66%;
+	}
+	.col-6{
+		flex:0 0 66.66%;
+		max-width: 66.66%;
+	}
+	.nav{
+		overflow: visible;
+	}
+	
+}
+@media( min-width: 1200px){
+	.container{
+		max-width: 1140px;
+	}
+	.col-3{
 		flex:0 0 25%;
 		max-width: 25%;
 	}
