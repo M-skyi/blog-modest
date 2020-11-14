@@ -746,7 +746,7 @@ textarea {
 	}
 
 	#section-2 {
-		height: 840px;
+		height: 790px;
 	}
 
 	#section-4 {
@@ -758,10 +758,32 @@ textarea {
 	#section-5 {
 		position: relative;
 		top: 1006px;
+		height: 2180px;
+	}
+
+	#section-6{
+		position: relative;
+		top: 63em;
+		height: 1126px;
+	}
+
+	#section-7{
+		position: relative;
+		top: 1015px;
+	}
+	.footer{
+		position: relative;
+		top: 1410px;
+		height: 135px;
+	}
+	.form{
+		top: 21px;
+		width: 301px;
 	}
 
 	.title {
 		margin-top: 20px;
+		margin-bottom: 35px;
 	}
 
 	.col-7 {
@@ -811,7 +833,7 @@ textarea {
 	}
 
 	.top-block {
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 
 	.img-people {
@@ -819,6 +841,7 @@ textarea {
 	}
 
 	.block-center-mobile {
+		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
 	}
@@ -835,12 +858,32 @@ textarea {
 		flex-direction: column;
 	}
 
-	.m_top {
-		flex-direction: column;
-	}
-
 	.block-we-do {
 		margin-bottom: 25px;
+	}
+	.img-fatures{
+		width: 310px;
+	}
+	.features-heading {
+		margin-top: 10px;
+		margin-bottom: 19px;
+	}
+	.features-text {
+		margin-bottom: 15px;
+		font-size: 13px;
+	}
+	.img-features{
+		width: 310px;
+	}
+	.footer_social {
+		position: relative;
+		left: 0px;
+		height: 50px;
+		line-height: 50px;
+	}
+	.text-footer {
+		margin-top: 5px;
+		line-height: 30px;
 	}
 }
 
@@ -862,6 +905,10 @@ textarea {
 	.col-6 {
 		flex: 0 0 66.66%;
 		max-width: 66.66%;
+	}
+	.col-md-6{
+		flex: 0 0 50%;
+		max-width: 50%;
 	}
 
 	.nav li {
@@ -898,6 +945,12 @@ textarea {
 		height: 2028px;
 	}
 
+	#section-6 {
+		position: relative;
+		top: 316px;
+		height: 1306px;
+	}
+
 	.button-center {
 		position: relative;
 		top: 0px;
@@ -917,6 +970,38 @@ textarea {
 		margin: 0 auto;
 		margin-bottom: 80px;
 	}
+	.features {
+		width: 362px;
+	}
+
+	.features-heading {
+		margin-top: 12px;
+		margin-bottom: 16px;
+	}
+
+	.features-text {
+		margin-bottom: 20px;
+	}
+	.form{
+		top: 25px;
+		left: 83px;
+	}
+	.block-content{
+        margin-left: 115px;
+		width: 100%;
+	}
+	.footer{
+		position: relative;
+		top: 335px;
+	}
+	.footer_social {
+		position: relative;
+		left: 21px;
+		height: 151px;
+		line-height: 50px;
+	}
+	
+	
 
 }
 
@@ -933,6 +1018,10 @@ textarea {
 	.col-6 {
 		flex: 0 0 66.66%;
 		max-width: 66.66%;
+	}
+	.col-lg-12{
+		flex: 0 0 100%;
+		max-width: 100%;
 	}
 
 	.nav {
@@ -963,6 +1052,10 @@ textarea {
 		height: 1115px;
 	}
 
+	#section-6 {
+		height: 530px;
+	}
+
 	.button-center {
 		position: relative;
 		top: 0px;
@@ -979,7 +1072,7 @@ textarea {
 
 	.text {
 		color: #9b9595;
-		font-size: 14px;
+		font-size: 12px;
 	}
 
 	#section-5 {
@@ -996,6 +1089,23 @@ textarea {
 
 	.img-people {
 		width: 313px;
+	}
+
+	.features{
+		width: 280px;
+		margin: 0px 10px;
+	}
+
+	.img-features{
+		width: 255px;
+	}
+	.block-content {
+		margin-left: 0px;
+		width: 100%;
+	}
+	.form {
+		top: 25px;
+		left: 200px;
 	}
 }
 
@@ -1063,6 +1173,12 @@ textarea {
 
 	}
 
+	#section-6{
+		position: relative;
+		top: 70px;
+		height: 570px;
+	}
+
 	.lovely-work {
 		position: relative;
 		width: 359px;
@@ -1071,6 +1187,18 @@ textarea {
 
 	.img-people {
 		width: 265px;
+	}
+
+	.features {
+		width: 360px;
+	}
+
+	.img-features {
+		width: 360px;
+	}
+	.form {
+		top: -100px;
+		left: 0px;
 	}
 
 }
