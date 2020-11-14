@@ -876,6 +876,7 @@ textarea {
 		width: 310px;
 	}
 	.footer_social {
+		top: 9px;
 		position: relative;
 		left: 0px;
 		height: 50px;
@@ -902,13 +903,17 @@ textarea {
 		max-width: 16.66%;
 	}
 
-	.col-6 {
+	.col-8 {
 		flex: 0 0 66.66%;
 		max-width: 66.66%;
 	}
 	.col-md-6{
-		flex: 0 0 50%;
-		max-width: 50%;
+		flex: 0 0 60%;
+		max-width: 60%;
+	}
+	.col-md-4{
+		flex: 0 0 40%;
+		max-width: 40%;
 	}
 
 	.nav li {
@@ -950,6 +955,10 @@ textarea {
 		top: 316px;
 		height: 1306px;
 	}
+	#section-7{
+			position: relative;
+			top: 315px;
+	}
 
 	.button-center {
 		position: relative;
@@ -982,17 +991,17 @@ textarea {
 	.features-text {
 		margin-bottom: 20px;
 	}
-	.form{
-		top: 25px;
-		left: 83px;
+	.form {
+		top: 361px;
+		left: -273px;
 	}
 	.block-content{
         margin-left: 115px;
 		width: 100%;
 	}
-	.footer{
+	.footer {
 		position: relative;
-		top: 335px;
+		top: 797px;
 	}
 	.footer_social {
 		position: relative;
@@ -1000,9 +1009,21 @@ textarea {
 		height: 151px;
 		line-height: 50px;
 	}
+	.col-lg-8{
+		flex: 0 0 60%;
+		max-width: 60%;
+	}
+	.text-footer {
+		margin-top: 0px;
+	}
+	.footer_social {
+		display: inline;
+		position: relative;
+		left: 108px;
+		height: 64px;
+		line-height: 50px;
+	}
 	
-	
-
 }
 
 @media(min-width: 992px) {
@@ -1022,6 +1043,18 @@ textarea {
 	.col-lg-12{
 		flex: 0 0 100%;
 		max-width: 100%;
+	}
+	.col-md-8{
+		flex: 0 0 60%;
+		max-width: 60%;
+	}
+	.col-md-4{
+		flex: 0 0 40%;
+		max-width: 40%;
+	}
+	.col-lg-8{
+		flex: 0 0 60%;
+		max-width: 60%;
 	}
 
 	.nav {
@@ -1054,6 +1087,10 @@ textarea {
 
 	#section-6 {
 		height: 530px;
+	}
+	#section-7 {
+		position: relative;
+		top: 316px;
 	}
 
 	.button-center {
@@ -1107,6 +1144,19 @@ textarea {
 		top: 25px;
 		left: 200px;
 	}
+
+	.footer {
+		position: relative;
+		top: 600px;
+	}
+	.footer_social {
+		display: inline;
+		position: relative;
+		left: 196px;
+		height: 64px;
+		line-height: 50px;
+		top: 1px;
+	}
 }
 
 @media(min-width: 1200px) {
@@ -1154,6 +1204,10 @@ textarea {
 		position: relative;
 		top: 0px;
 	}
+	#section-7 {
+		position: relative;
+		top: 79px;
+	}
 
 	.block-we-do {
 		width: 265px;
@@ -1199,6 +1253,18 @@ textarea {
 	.form {
 		top: -100px;
 		left: 0px;
+	}
+	.footer {
+		position: relative;
+		top: 119px;
+	}
+	.footer_social {
+		display: inline;
+		position: relative;
+		left: 98px;
+		height: 64px;
+		line-height: 50px;
+		top: 2px;
 	}
 
 }
