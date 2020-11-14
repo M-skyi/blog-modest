@@ -886,6 +886,9 @@ textarea {
 		margin-top: 5px;
 		line-height: 30px;
 	}
+	.features {
+		width: 311px;
+	}
 }
 
 @media(min-width: 768px) {
