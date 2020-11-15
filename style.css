@@ -133,10 +133,6 @@ header {
 	color: #cccccc;
 }
 
-/* .scroll li:first-child {
-	border: 2px solid #33cc99;
-} */
-
 .nav a {
 	text-decoration: none;
 	font-size: 14px;
@@ -521,7 +517,6 @@ input::-webkit-input-placeholder {
 input {
 	width: 240px;
 	height: 45px;
-	/*margin-left: 19px;*/
 	background-color: #eaeef1;
 	border: none;
 	border-radius: 5px;
@@ -739,7 +734,7 @@ textarea {
 	}
 
 	#section-1 {
-		height: 400px;
+		height: 551px;
 	}
 
 	#section-2 {
@@ -895,6 +890,11 @@ textarea {
 	.features {
 		width: 311px;
 	}
+	.modal-form {
+		width: 300px;
+		height: 300px;
+		top: 20%;
+	}
 }
 
 @media(min-width: 768px) {
@@ -952,7 +952,6 @@ textarea {
 
 	.block-center-mobile {
 		justify-content: center;
-		/* flex-wrap: nowrap; */
 	}
 
 	#section-4 {
@@ -1042,6 +1041,11 @@ textarea {
 		left: 108px;
 		height: 64px;
 		line-height: 50px;
+	}
+	.modal-form {
+		width: 400px;
+		height: 300px;
+		top: 35%;
 	}
 
 }
@@ -1299,4 +1303,79 @@ textarea {
 		top: 2px;
 	}
 
+}
+
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background-color: rgba(0, 0, 0, 0.3);
+	display: none;
+}
+.show-modal{
+	display: block;
+}
+
+.modal-form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border: 2px solid black;
+	background-color: rgba(107, 104, 104, 0.4);
+	position:relative;
+	margin: 0 auto;
+}
+
+.modal-input {
+	margin-top: 40px;
+	width: 240px;
+	height: 45px;
+	z-index: 100;
+}
+
+.modal-btn-send {
+	margin-top: 40px;
+	width: 130px;
+	height: 40px;
+	outline: none;
+	border-radius: 5px;
+	border: none;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	background-color: rgba(255, 255, 255, 0.904);
+	color: gray;
+
+}
+
+.modal-btn-send:hover {
+	background-color: rgba(39, 38, 38, 0.801);
+	color: #ffffff;
+	cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	word-spacing: 10px;
+}
+
+.modal-input::placeholder {
+	color: grey;
+}
+
+.modal-input {
+	padding: 0 20px;
+	color: grey;
+	background-color: rgba(255, 255, 255, 0.904);
+}
+
+.modal-Btn-close {
+	display: inline;
+	position: relative;
+	left: 45%;
+	top: 5px;
+	color: #ffffff;
+	cursor: pointer;
 }
