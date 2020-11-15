@@ -10,10 +10,14 @@ body {
 }
 
 header {
+	position: fixed;
 	display: flex;
 	background-color: #333333;
 	height: 80px;
 	align-items: center;
+	z-index: 100;
+	right: 0;
+	left: 0;
 }
 
 @font-face {
@@ -102,10 +106,6 @@ header {
 	right: 4px;
 }
 
-/* .logo-header{
-	display: block;
-	width: 100px;
-} */
 .right {
 	position: relative;
 	margin-left: 75px;
@@ -133,9 +133,9 @@ header {
 	color: #cccccc;
 }
 
-.scroll li:first-child {
+/* .scroll li:first-child {
 	border: 2px solid #33cc99;
-}
+} */
 
 .nav a {
 	text-decoration: none;
@@ -577,9 +577,6 @@ textarea {
 
 .social {
 	position: relative;
-	/*left: 40px;
-	height: 50px;
-	line-height: 50px;*/
 }
 
 .footer_social {
@@ -702,7 +699,7 @@ textarea {
 		visibility: visible;
 		transform: translateX(0);
 		top: 80px;
-		background-color: rgba(132, 148, 153, 0.993);
+		background-color: #606162;
 		display: flex;
 		flex-direction: column;
 		height: 300px;
@@ -761,22 +758,24 @@ textarea {
 		height: 2180px;
 	}
 
-	#section-6{
+	#section-6 {
 		position: relative;
 		top: 63em;
 		height: 1126px;
 	}
 
-	#section-7{
+	#section-7 {
 		position: relative;
 		top: 1015px;
 	}
-	.footer{
+
+	.footer {
 		position: relative;
 		top: 1410px;
 		height: 135px;
 	}
-	.form{
+
+	.form {
 		top: 21px;
 		width: 301px;
 	}
@@ -861,20 +860,25 @@ textarea {
 	.block-we-do {
 		margin-bottom: 25px;
 	}
-	.img-fatures{
+
+	.img-fatures {
 		width: 310px;
 	}
+
 	.features-heading {
 		margin-top: 10px;
 		margin-bottom: 19px;
 	}
+
 	.features-text {
 		margin-bottom: 15px;
 		font-size: 13px;
 	}
-	.img-features{
+
+	.img-features {
 		width: 310px;
 	}
+
 	.footer_social {
 		top: 9px;
 		position: relative;
@@ -882,10 +886,12 @@ textarea {
 		height: 50px;
 		line-height: 50px;
 	}
+
 	.text-footer {
 		margin-top: 5px;
 		line-height: 30px;
 	}
+
 	.features {
 		width: 311px;
 	}
@@ -910,11 +916,13 @@ textarea {
 		flex: 0 0 66.66%;
 		max-width: 66.66%;
 	}
-	.col-md-6{
-		flex: 0 0 60%;
-		max-width: 60%;
+
+	.col-md-6 {
+		flex: 0 0 65%;
+		max-width: 65%;
 	}
-	.col-md-4{
+
+	.col-md-4 {
 		flex: 0 0 40%;
 		max-width: 40%;
 	}
@@ -958,9 +966,10 @@ textarea {
 		top: 316px;
 		height: 1306px;
 	}
-	#section-7{
-			position: relative;
-			top: 315px;
+
+	#section-7 {
+		position: relative;
+		top: 315px;
 	}
 
 	.button-center {
@@ -982,6 +991,7 @@ textarea {
 		margin: 0 auto;
 		margin-bottom: 80px;
 	}
+
 	.features {
 		width: 362px;
 	}
@@ -994,31 +1004,38 @@ textarea {
 	.features-text {
 		margin-bottom: 20px;
 	}
+
 	.form {
 		top: 361px;
 		left: -273px;
 	}
-	.block-content{
-        margin-left: 115px;
+
+	.block-content {
+		margin-left: 115px;
 		width: 100%;
 	}
+
 	.footer {
 		position: relative;
 		top: 797px;
 	}
+
 	.footer_social {
 		position: relative;
 		left: 21px;
 		height: 151px;
 		line-height: 50px;
 	}
-	.col-lg-8{
+
+	.col-lg-8 {
 		flex: 0 0 60%;
 		max-width: 60%;
 	}
+
 	.text-footer {
 		margin-top: 0px;
 	}
+
 	.footer_social {
 		display: inline;
 		position: relative;
@@ -1026,7 +1043,7 @@ textarea {
 		height: 64px;
 		line-height: 50px;
 	}
-	
+
 }
 
 @media(min-width: 992px) {
@@ -1043,19 +1060,23 @@ textarea {
 		flex: 0 0 66.66%;
 		max-width: 66.66%;
 	}
-	.col-lg-12{
+
+	.col-lg-12 {
 		flex: 0 0 100%;
 		max-width: 100%;
 	}
-	.col-md-8{
+
+	.col-md-8 {
 		flex: 0 0 60%;
 		max-width: 60%;
 	}
-	.col-md-4{
+
+	.col-md-4 {
 		flex: 0 0 40%;
 		max-width: 40%;
 	}
-	.col-lg-8{
+
+	.col-lg-8 {
 		flex: 0 0 60%;
 		max-width: 60%;
 	}
@@ -1091,6 +1112,7 @@ textarea {
 	#section-6 {
 		height: 530px;
 	}
+
 	#section-7 {
 		position: relative;
 		top: 316px;
@@ -1131,18 +1153,20 @@ textarea {
 		width: 313px;
 	}
 
-	.features{
+	.features {
 		width: 280px;
 		margin: 0px 10px;
 	}
 
-	.img-features{
+	.img-features {
 		width: 255px;
 	}
+
 	.block-content {
 		margin-left: 0px;
 		width: 100%;
 	}
+
 	.form {
 		top: 25px;
 		left: 200px;
@@ -1152,6 +1176,7 @@ textarea {
 		position: relative;
 		top: 600px;
 	}
+
 	.footer_social {
 		display: inline;
 		position: relative;
@@ -1207,6 +1232,7 @@ textarea {
 		position: relative;
 		top: 0px;
 	}
+
 	#section-7 {
 		position: relative;
 		top: 79px;
@@ -1230,7 +1256,7 @@ textarea {
 
 	}
 
-	#section-6{
+	#section-6 {
 		position: relative;
 		top: 70px;
 		height: 570px;
@@ -1253,14 +1279,17 @@ textarea {
 	.img-features {
 		width: 360px;
 	}
+
 	.form {
 		top: -100px;
 		left: 0px;
 	}
+
 	.footer {
 		position: relative;
 		top: 119px;
 	}
+
 	.footer_social {
 		display: inline;
 		position: relative;
