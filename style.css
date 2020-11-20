@@ -20,9 +20,6 @@ header {
 	right: 0;
 	left: 0;
 }
-.fix-header{
-	/* position: fixed; */
-}
 
 @font-face {
 	src: url(fonts/Socialico.ttf);
@@ -186,24 +183,6 @@ input::-webkit-input-placeholder {
 	height: 20px;
 }
 
-/* #section-1 {
-	display: flex;
-	height: 666px;
-	background: url(img/img2.png)center top / cover;
-	align-items: center;
-}
-
-#section-2 {
-	height: 615px;
-	background-color: #ffffff;
-	border-bottom: 1px solid #cccccc;
-}
-
-#section-3 {
-	height: 650px;
-	background-color: #ffffff;
-} */
-
 .block {
 	text-transform: uppercase;
 	display: inline-block;
@@ -350,12 +329,6 @@ input::-webkit-input-placeholder {
 	display: inline-block;
 	margin: 20px 20px;
 }
-
-/* #section-4 {
-	height: 900px;
-	background-color: #3a454d;
-} */
-
 .color-title {
 	color: white;
 }
@@ -417,12 +390,6 @@ input::-webkit-input-placeholder {
 	line-height: 65px;
 	margin-left: 20px;
 }
-
-/* #section-5 {
-	height: 895px;
-	background-color: #ffffff;
-} */
-
 .button:hover {
 	background-color: white;
 	color: #3a454d;
@@ -451,12 +418,6 @@ input::-webkit-input-placeholder {
 .text {
 	color: #9b9595;
 }
-
-/* #section-6 {
-	height: 735px;
-	background-color: #3a454d;
-} */
-
 .border {
 	border-left: 10px solid #4e5a62;
 	height: 40px;
@@ -469,19 +430,8 @@ input::-webkit-input-placeholder {
 .features-heading {
 	margin-top: 55px;
 	margin-bottom: 30px;
-	/* color: white; */
 	text-transform: uppercase;
 }
-
-.features-text {
-	/* color: #ffffff; */
-}
-
-/* #section-7 {
-	height: 870px;
-	background-color: #ffffff;
-} */
-
 .map {
 	background: url(img/img1.png)center top / cover;
 	height: 348px;
@@ -496,7 +446,6 @@ input::-webkit-input-placeholder {
 	padding: 30px;
 	position: relative;
 	width: 557px;
-	/* height: 430px; */
 	background-color: #ffffff;
 	bottom: 130px;
 }
@@ -569,7 +518,6 @@ textarea {
 }
 
 .footer {
-	/* height: 95px; */
 	background-color: #3a454d;
 	line-height: 95px;
 	color: white;
@@ -737,44 +685,6 @@ textarea {
 	.title-welcome {
 		font-size: 34px;
 	}
-
-	/* #section-1 {
-		height: 551px;
-	}
-
-	#section-2 {
-		height: 790px;
-	}
-
-	#section-4 {
-		position: relative;
-		top: 1000px;
-		height: 1923px;
-	}
-
-	#section-5 {
-		position: relative;
-		top: 1006px;
-		height: 2180px;
-	}
-
-	#section-6 {
-		position: relative;
-		top: 63em;
-		height: 1126px;
-	}
-
-	#section-7 {
-		position: relative;
-		top: 1015px;
-	}
-
-	.footer {
-		position: relative;
-		top: 1410px;
-		height: 135px;
-	} */
-
 	.form {
 		top: -2px;
 		width: 301px;
@@ -803,7 +713,7 @@ textarea {
 		margin-left: 5px;
 		bottom: 40px;
 		height: 114px;
-		margin-top: 35px;
+		margin-top: 62px;
 		width: 307px;
 	}
 
@@ -868,11 +778,19 @@ textarea {
 	.features-heading {
 		margin-top: 10px;
 		margin-bottom: 19px;
+		padding: 0px 5px;
+		color: #ffffff;
 	}
 
 	.features-text {
 		margin-bottom: 15px;
 		font-size: 13px;
+		line-height: 18px;
+		padding: 5px;
+		color: #ffffff;
+	}
+	.white-title{
+		color: #ffffff;
 	}
 
 	.img-features {
@@ -880,7 +798,7 @@ textarea {
 	}
 
 	.footer_social {
-		top: 9px;
+		top: -1px;
 		position: relative;
 		left: 0px;
 		height: 50px;
@@ -891,21 +809,31 @@ textarea {
 		margin-top: 5px;
 		line-height: 30px;
 	}
+	.text{
+		padding: 0px 5px;
+		font-size: 13px;
+	}
 
 	.features {
 		width: 311px;
 	}
+
 	.modal-form {
 		width: 300px;
-		height: 300px;
+		height: 260px;
 		top: 20%;
 	}
+
 	#section-1 {
 		display: flex;
 		background: url(img/img2.png)center top / cover;
 		align-items: center;
 	}
+
 	#section-4 {
+		background-color: #3a454d;
+	}
+	#section-6 {
 		background-color: #3a454d;
 	}
 }
@@ -918,6 +846,10 @@ textarea {
 	.col-md-3 {
 		flex: 0 0 25%;
 		max-width: 25%;
+	}
+
+	#section-6 {
+		background-color: #3a454d;
 	}
 
 	.col-3 {
@@ -967,36 +899,13 @@ textarea {
 		justify-content: center;
 	}
 
-	/* #section-4 {
-		position: relative;
-		top: 330px;
-		height: 2028px;
-	}
-
-	#section-6 {
-		position: relative;
-		top: 316px;
-		height: 1306px;
-	}
-
-	#section-7 {
-		position: relative;
-		top: 315px;
-	} */
-
-	.button-center {
+    .button-center {
 		position: relative;
 		top: 0px;
 		justify-content: center;
 	}
 
-	/* #section-5 {
-		position: relative;
-		top: 315px;
-		height: 834px;
-	} */
-
-	.block-we-do {
+    .block-we-do {
 		width: auto;
 		height: 230px;
 		text-align: center;
@@ -1011,37 +920,26 @@ textarea {
 	.features-heading {
 		margin-top: 12px;
 		margin-bottom: 16px;
-		color: black;
+		color:#ffffff;
 	}
 
 	.features-text {
 		margin-bottom: 20px;
-		color: black;
+		color:#ffffff;
+		line-height: 25px;
 	}
-
-	/* .form {
-		top: 361px;
-		left: -273px;
-	} */
 
 	.form {
 		padding: 30px;
 		position: relative;
 		width: 311px;
-		/* height: 430px; */
 		background-color: #ffffff;
 		bottom: 0px;
 	}
 
 	.block-content {
-		/* margin-left: 115px; */
 		width: 100%;
 	}
-
-	/* .footer {
-		position: relative;
-		top: 797px;
-	} */
 
 	.footer_social {
 		position: relative;
@@ -1066,26 +964,39 @@ textarea {
 		height: 64px;
 		line-height: 50px;
 	}
+
 	.modal-form {
 		width: 400px;
-		height: 300px;
+		height: 260px;
 		top: 35%;
 	}
+
 	#section-1 {
 		display: flex;
 		background: url(img/img2.png)center top / cover;
 		align-items: center;
 	}
-	.button2, .button1 {
+
+	.button2,
+	.button1 {
 		width: 125px;
 		margin-left: 5px;
 		margin-bottom: 50px;
 	}
-	.title-welcome{
+
+	.title-welcome {
 		margin-top: 100px;
 	}
+
 	#section-4 {
 		background-color: #3a454d;
+	}
+
+	.button {
+		margin-bottom: 10px;
+	}
+	.white-title{
+		color: #ffffff;
 	}
 
 }
@@ -1149,19 +1060,6 @@ textarea {
 		height: 69px;
 	}
 
-	/* #section-4 {
-		height: 1115px;
-	}
-
-	#section-6 {
-		height: 530px;
-	}
-
-	#section-7 {
-		position: relative;
-		top: 316px;
-	} */
-
 	.button-center {
 		position: relative;
 		top: 0px;
@@ -1180,10 +1078,6 @@ textarea {
 		color: #9b9595;
 		font-size: 12px;
 	}
-
-	/* #section-5 {
-		height: 677px;
-	} */
 
 	.lovely-work {
 		margin: 10px 10px;
@@ -1215,20 +1109,15 @@ textarea {
 		top: 25px;
 		left: 200px;
 	}
+
 	.form {
 		padding: 30px;
 		position: relative;
 		width: 557px;
-		/* height: 430px; */
 		background-color: #ffffff;
 		bottom: 130px;
 		top: 0px;
 	}
-
-	/* .footer {
-		position: relative;
-		top: 600px;
-	} */
 
 	.footer_social {
 		display: inline;
@@ -1279,18 +1168,6 @@ textarea {
 		height: 64px;
 	}
 
-	/* #section-4 {
-		height: 900px;
-		background-color: #3a454d;
-		position: relative;
-		top: 0px;
-	}
-
-	#section-7 {
-		position: relative;
-		top: 79px;
-	} */
-
 	.block-we-do {
 		width: 265px;
 		height: 230px;
@@ -1302,18 +1179,6 @@ textarea {
 	.row {
 		display: flex;
 	}
-
-	/* #section-5 {
-		position: relative;
-		top: -50px;
-
-	} */
-
-	/* #section-6 {
-		position: relative;
-		top: 70px;
-		height: 570px;
-	} */
 
 	.lovely-work {
 		position: relative;
@@ -1358,47 +1223,61 @@ textarea {
 		background: url(img/img2.png)center top / cover;
 		align-items: center;
 	}
-	
+
 	#section-2 {
 		height: 615px;
 		background-color: #ffffff;
 		border-bottom: 1px solid #cccccc;
 	}
-	
+
 	#section-3 {
 		height: 650px;
 		background-color: #ffffff;
 	}
+
 	#section-4 {
 		height: 900px;
 		background-color: #3a454d;
 	}
+	#section-6 {
+		background-color: #3a454d;
+		height: 735px;
+	}
+
 	#section-5 {
 		height: 895px;
 		background-color: #ffffff;
 	}
-	/* .color-title {
-		color: white;
-	} */
-	.title{
+	#section- {
+		height: 866px;
+	}
+
+	.title {
 		color: black;
-		margin-top: 30px;
 	}
-    .color-title{
+
+	.color-title,.white-title {
 		color: white;
+		margin-top: 90px;
 	}
+
 	.text {
 		color: #9b9595;
 		font-size: 16px;
 	}
-	.right-part-text{
+
+	.right-part-text {
 		font-size: 12px;
 	}
+
 	.m-top {
 		margin-top: 50px;
 	}
-	
-	
+	.button{
+		margin-top: 40px;
+	}
+
+
 
 }
 
@@ -1412,7 +1291,8 @@ textarea {
 	background-color: rgba(0, 0, 0, 0.3);
 	display: none;
 }
-.show-modal{
+
+.show-modal {
 	display: block;
 }
 
@@ -1422,12 +1302,12 @@ textarea {
 	flex-direction: column;
 	border: 2px solid black;
 	background-color: grey;
-	position:relative;
+	position: relative;
 	margin: 0 auto;
 }
 
 .modal-input {
-	margin-top: 40px;
+	margin-top: 20px;
 	width: 240px;
 	height: 45px;
 	z-index: 100;
@@ -1468,7 +1348,7 @@ textarea {
 	background-color: rgba(255, 255, 255, 0.904);
 }
 
-.modal-Btn-close {
+.modal-btn-close {
 	display: inline;
 	position: relative;
 	left: 45%;
