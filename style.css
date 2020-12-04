@@ -128,16 +128,15 @@ header {
 	border: 2px solid #7e7e7e;
 }
 
-/* .nav li a:hover {
-	color: #cccccc;
-} */
-
 .nav a {
 	text-decoration: none;
 	font-size: 14px;
 	padding: 5px;
 	color: #cccccc;
 	font-weight: bold;
+	display: block;
+	margin-top: -4px;
+	margin-bottom: -4px;
 }
 
 .nav-search {
@@ -1010,6 +1009,10 @@ textarea {
 		color: #ffffff;
 	}
 
+	.nav a {
+		padding: 6px 3px;
+	}
+
 }
 
 @media(min-width: 992px) {
@@ -1137,6 +1140,10 @@ textarea {
 		height: 64px;
 		line-height: 50px;
 		top: 1px;
+	}
+
+	.nav a {
+		padding: 3px 3px;
 	}
 }
 
@@ -1372,12 +1379,13 @@ textarea {
 	cursor: pointer;
 }
 
-.nav li.background-element-nav-clicked {
+.nav li.element-nav-clicked {
 	border: 2px solid #23b7a4;
-	/* display: block; */
+	display: block;
 	border-radius: 5px;
 	color: #23b7a4;
 }
-.nav a.background-element-nav-clicked{
+
+.nav a.element-nav-clicked {
 	color: #23b7a4;
 }

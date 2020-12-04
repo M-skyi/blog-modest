@@ -41,14 +41,14 @@ let elementNav = document.querySelectorAll(".element-nav")
 
 function hideBackground() {
     elementNav.forEach((el) => {
-        el.parentElement.classList.remove("background-element-nav-clicked")
-        el.classList.remove("background-element-nav-clicked")
+        el.parentElement.classList.remove("element-nav-clicked")
+        el.classList.remove("element-nav-clicked")
     })
 }
 
 function colorBackground(i = 0) {
-    elementNav[i].classList.add("background-element-nav-clicked")
-    elementNav[i].parentElement.classList.add("background-element-nav-clicked")
+    elementNav[i].classList.add("element-nav-clicked")
+    elementNav[i].parentElement.classList.add("element-nav-clicked")
 }
 hideBackground()
 colorBackground()
