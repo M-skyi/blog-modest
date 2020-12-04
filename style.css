@@ -122,24 +122,22 @@ header {
 	align-items: center;
 	margin-top: 8px;
 	border: 2px solid #333333;
-
-
 }
 
 .nav li:hover {
 	border: 2px solid #7e7e7e;
 }
 
-.nav li a:hover {
+/* .nav li a:hover {
 	color: #cccccc;
-}
+} */
 
 .nav a {
 	text-decoration: none;
 	font-size: 14px;
 	padding: 5px;
 	color: #cccccc;
-	font-size: 14px;
+	font-weight: bold;
 }
 
 .nav-search {
@@ -329,6 +327,7 @@ input::-webkit-input-placeholder {
 	display: inline-block;
 	margin: 20px 20px;
 }
+
 .color-title {
 	color: white;
 }
@@ -390,6 +389,7 @@ input::-webkit-input-placeholder {
 	line-height: 65px;
 	margin-left: 20px;
 }
+
 .button:hover {
 	background-color: white;
 	color: #3a454d;
@@ -418,6 +418,7 @@ input::-webkit-input-placeholder {
 .text {
 	color: #9b9595;
 }
+
 .border {
 	border-left: 10px solid #4e5a62;
 	height: 40px;
@@ -432,6 +433,7 @@ input::-webkit-input-placeholder {
 	margin-bottom: 30px;
 	text-transform: uppercase;
 }
+
 .map {
 	background: url(img/img1.png)center top / cover;
 	height: 348px;
@@ -646,7 +648,7 @@ textarea {
 		opacity: 1;
 		visibility: visible;
 		transform: translateX(0);
-		top: 80px;
+		top: 50px;
 		background-color: #606162;
 		display: flex;
 		flex-direction: column;
@@ -685,6 +687,7 @@ textarea {
 	.title-welcome {
 		font-size: 34px;
 	}
+
 	.form {
 		top: -2px;
 		width: 301px;
@@ -789,7 +792,8 @@ textarea {
 		padding: 5px;
 		color: #ffffff;
 	}
-	.white-title{
+
+	.white-title {
 		color: #ffffff;
 	}
 
@@ -809,7 +813,8 @@ textarea {
 		margin-top: 5px;
 		line-height: 30px;
 	}
-	.text{
+
+	.text {
 		padding: 0px 5px;
 		font-size: 13px;
 	}
@@ -833,8 +838,13 @@ textarea {
 	#section-4 {
 		background-color: #3a454d;
 	}
+
 	#section-6 {
 		background-color: #3a454d;
+	}
+
+	header {
+		height: 50px;
 	}
 }
 
@@ -899,13 +909,13 @@ textarea {
 		justify-content: center;
 	}
 
-    .button-center {
+	.button-center {
 		position: relative;
 		top: 0px;
 		justify-content: center;
 	}
 
-    .block-we-do {
+	.block-we-do {
 		width: auto;
 		height: 230px;
 		text-align: center;
@@ -920,12 +930,12 @@ textarea {
 	.features-heading {
 		margin-top: 12px;
 		margin-bottom: 16px;
-		color:#ffffff;
+		color: #ffffff;
 	}
 
 	.features-text {
 		margin-bottom: 20px;
-		color:#ffffff;
+		color: #ffffff;
 		line-height: 25px;
 	}
 
@@ -995,7 +1005,8 @@ textarea {
 	.button {
 		margin-bottom: 10px;
 	}
-	.white-title{
+
+	.white-title {
 		color: #ffffff;
 	}
 
@@ -1239,6 +1250,7 @@ textarea {
 		height: 900px;
 		background-color: #3a454d;
 	}
+
 	#section-6 {
 		background-color: #3a454d;
 		height: 735px;
@@ -1248,6 +1260,7 @@ textarea {
 		height: 895px;
 		background-color: #ffffff;
 	}
+
 	#section- {
 		height: 866px;
 	}
@@ -1256,7 +1269,8 @@ textarea {
 		color: black;
 	}
 
-	.color-title,.white-title {
+	.color-title,
+	.white-title {
 		color: white;
 		margin-top: 90px;
 	}
@@ -1273,7 +1287,8 @@ textarea {
 	.m-top {
 		margin-top: 50px;
 	}
-	.button{
+
+	.button {
 		margin-top: 40px;
 	}
 
@@ -1355,4 +1370,14 @@ textarea {
 	top: 5px;
 	color: #ffffff;
 	cursor: pointer;
+}
+
+.nav li.background-element-nav-clicked {
+	border: 2px solid #23b7a4;
+	/* display: block; */
+	border-radius: 5px;
+	color: #23b7a4;
+}
+.nav a.background-element-nav-clicked{
+	color: #23b7a4;
 }

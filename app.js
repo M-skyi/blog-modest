@@ -37,3 +37,26 @@ modalWindow.addEventListener("click", function (event) {
     }
 
 })
+let elementNav = document.querySelectorAll(".element-nav")
+
+function hideBackground() {
+    elementNav.forEach((el) => {
+        el.parentElement.classList.remove("background-element-nav-clicked")
+        el.classList.remove("background-element-nav-clicked")
+    })
+}
+
+function colorBackground(i = 0) {
+    elementNav[i].classList.add("background-element-nav-clicked")
+    elementNav[i].parentElement.classList.add("background-element-nav-clicked")
+}
+hideBackground()
+colorBackground()
+elementNav.forEach((el, i) => {
+    el.addEventListener("click", function (e) {
+        if (e.target.classList.contains("element-nav")) {
+            hideBackground()
+            colorBackground(i)
+        }
+    })
+})
